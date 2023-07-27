@@ -1,0 +1,19 @@
+.contacto main{
+    min-height: calc(100vh - 350px);
+}
+
+.formulario{
+    border: 10px solid black;
+    background-color: cornsilk;
+    padding: $veintep;
+
+    ul {
+        text-decoration: none;
+
+        li {
+            font-size: $veintep;
+            font-weight: 500px;
+        }
+
+        }
+    }

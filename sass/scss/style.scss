@@ -1,22 +1,18 @@
 @import "./modulos/variables";
+@import "./modulos/reset";
+@import "./modulos/header";
 
 
 
 
-*::after,
-*::before{
-    margin: $cero;
-    padding: $cero;
-    box-sizing: border-box;
-}
 
-.header{
-    height: 100vh;
-}
+
+
+
 
 .paginas-container a{
     color: $color-crema;
-    font-size: 22px;
+    font-size: $veintep + 2;
 }
 
 .logo-container p{  
@@ -71,9 +67,7 @@
     height: $seis-cienp - 300px;
 }
 
-.main-talleres{
-    min-height: calc(100vh - 350px);
-}
+
 
 
 .nosotros{
