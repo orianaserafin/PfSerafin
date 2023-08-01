@@ -1,3 +1,11 @@
 footer{
-    height: 50px;
+    .footer-iconos {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        .icono {
+            height: 50px;
+            width: 50px;
+        }
+    }
 }

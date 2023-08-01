@@ -10,7 +10,6 @@
 }
 
 .main {
-  padding-top: 100px;
   background-color: lightgray;
 }
 
@@ -50,8 +49,14 @@
   height: 600px;
 }
 
-footer {
+footer .footer-iconos {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+footer .footer-iconos .icono {
   height: 50px;
+  width: 50px;
 }
 
 p {
@@ -77,6 +82,16 @@ p {
   border-radius: 8px;
   padding: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paginas-container > a {
+  text-decoration: none;
+  color: white;
+}
+
+.parrafoinicio {
+  padding: 30px;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
