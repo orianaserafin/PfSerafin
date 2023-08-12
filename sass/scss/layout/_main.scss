@@ -31,18 +31,3 @@
         max-height: $seis-cienp - 200px;
     }
 }
-
-
-
-
-
-
-.nosotros{
-    min-height: calc(100vh - 50px);
-
-    .carousel-item {
-        img {
-            height: $seis-cienp;
-        }
-    }
-}
